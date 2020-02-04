@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- LIEN POUR LES ECRITURES GOOGLE FONT -->
+    <!-- PTSERIF -->
+    <link href="https://fonts.googleapis.com/css?family=Slabo+27px&display=swap" rel="stylesheet">
+    <!--MA SHAN ZHENG  -->
+    <link href="https://fonts.googleapis.com/css?family=Ma+Shan+Zheng&display=swap" rel="stylesheet"> 
+    <!-- LOBSTER -->
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/index.css">
+    <title>Fil Rouge</title>
+
+</head>
+
+<body>
+
+    <div class="container-fluid">    
+        <!-- CODE HTML MENU RESPONSIVE -->
+
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <a href="index.html">Accueil</a>
+                <a href="">A propos</a>
+                <a href="#trombi">Trombinoscope</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+        <center>
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; MENU</span>
+        </center>
+        <!-- FIN DU CODE HTML MENU RESPONSIVE -->
+
+         <!-- CODE HTML SLIDESHOW -->
+
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <img src="image/banniere-trombi.png" style="width:100%">
+            </div>
+            
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="image/by.jpg" style="width:100%">
+            </div>
+  
+
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <img src="image/DÉVELOPPEUR.jpg" style="width:100%">
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+        </div>
+        <br>
+            
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+
+        <!-- FIN DU CODE HTML SLIDESHOW -->
+
+        <!-- CODE PARALLAX -->
+        <div class="bgimg-1">
+            <center>
+                <h1 style="color: black" class="titre">
+                    PRESENTATION
+                </h1>
+                <div class="presentation">
+                    <h1> 
+                        Nous sommes les volontaires Stagiaire de la Filière Développeur Web en formation Simplon.co d'un an au RSMA-PF. <br>
+                        Cela fait 9 mois que nous sommes dans cette filière. <br>
+                        Notre rôle sont: <br> 
+                        - la création de sites internet (Statique/Dynamique) <br>
+                        - Création d'application Web <br>
+                        Notre formateur se nomme Vaiarii TEPA <br>  
+                        Nous utilisons les langages de programmation tels que: HTML5, CSS, PHP, JavaScript, MySQL, jQuery, Bootstrap... <br>
+                        Durant ces mois nous avons réalisée différents projets tel que: <br>
+                        - la création de notre Portfolio. <br>
+                        - la conception d'une application fonctionnelle <br>
+                        - la création d'un trombinoscope <br>
+                        - la conception d'une base de données grâce au framework Laravel <br>
+                    </h1>
+                </div>
+            </center>
+        </div>
+            
+        <div style="color: #777;background-color:sandybrown;text-align:center;padding:50px 80px;text-align: justify;">
+            <h3 style="text-align:center;" id="trombi">TROMBINOSCOPE</h3>
+            <p> </p>
+        </div>
+        
+        <div class="bgimg-2">
+            <div class="rang">
+                <!-- TROMBINOSCOPE VAIARII -->
+                <div class="card">
+                    <img src="image/tepa.jpeg" alt="ZAGHDA" class="image">
+                    <h1>TEPA Vaiarii</h1>
+                    <p class="title">FORMATEUR DÉVELOPPEUR WEB</p>
+                    <p>Spécialité Full-Stack Senior</p>
+                </div>
+                <!-- FIN TROMBINOSCOPE VAIARII -->
+
+                <!-- TROMBINOSCOPE VAIARII -->
+                <div class="card">
+                    <img src="image/armand.jpeg" alt="ZAGHDA" class="image">
+                    <h1>DENISET Armand</h1>
+                    <p class="title">FORMATEUR DÉVELOPPEUR WEB A DISTANCE</p>
+                    <p>Spécialite Coach Facilitateur Simplon.co</p>
+                </div>
+                <!-- FIN TROMBINOSCOPE VAIARII -->
+            </div>
+
+            <div class="rang">
+                <!-- TROMBINOSCOPE BURNS -->
+                <div class="card">
+                    <img src="image/BURNS.jpg" alt="BURNS" class="image">
+                    <h1>BURNS Heimoanatini</h1>
+                    <p class="title">Développeur Web</p>
+                    <p>Spécialiste Back-End</p>
+                    <p>20 ans</p>
+                    
+                </div>
+                <!-- FIN TROMBINOSCOPE BURNS -->
+
+                <!-- TROMBINOSCOPE DHOU -->
+                <div class="card">
+                    <img src="image/dhou.jpg" alt="DHOU" class="image">
+                    <h1>DHOU Amandine</h1>
+                    <p class="title">Développeuse Web</p>
+                    <p>Spécialiste gestion de projet/Front-End</p>
+                    <p>26 ans</p>
+                    
+                </div>
+                <!-- FIN TROMBINOSCOPE DHOU -->
+
+                <!-- TROMBINOSCOPE FAATAU -->
+                <div class="card">
+                    <img src="image/faatau.jpg" alt="FAATAU" class="image">
+                    <h1>FAATAU Antoine</h1>
+                    <p class="title">Développeur Web</p>
+                    <p>Spécialiste Full-Stack</p>
+                    <p>26 ans</p>
+                    
+                </div>
+                <!-- FIN TROMBINOSCOPE FAATAU -->
+
+                <!-- TROMBINOSCOPE JOHNSTON -->
+                <div class="card">
+                    <img src="image/johnston.jpg" alt="JOHNSTON" class="image">
+                    <h1>JOHNSTON Vainui</h1>
+                    <p class="title">Développeuse Web</p>
+                    <p>Spécialiste Front-End</p>
+                    <p>20 ans</p>
+                    
+                </div>
+                <!-- FIN TROMBINOSCOPE JOHNSTON -->
+            </div>
+            <!-- FIN DIV RANG -->
+
+            <div class="rang">
+
+                <!-- TROMBINOSCOPE LEFEVRE -->
+                <div class="card">
+                    <img src="image/LEFEVRE.jpg" alt="LEFEVRE" class="image">
+                    <h1>LEFEVRE Edmmond</h1>
+                    <p class="title">Développeur Web</p>
+                    <p>Spécialiste Graphiste/Front-End</p>
+                    <p>21 ans</p>
+                    
+                </div>
+                <!-- FIN TROMBINOSCOPE LEFEVRE -->
+
+                <!-- TROMBINOSCOPE POETAI -->
+                <div class="card">
+                    <img src="image/poetai.jpg" alt="POETAI" class="image">
+                    <h1>POETAI Gaëlle</h1>
+                    <p class="title">Développeuse Web</p>
+                    <p>Spécialiste Back-End</p>
+                    <p>22 ans</p>
+                    
+                </div>
+                <!-- FIN TROMBINOSCOPE POETAI -->
+
+                <!-- TROMBINOSCOPE POKARA -->
+                <div class="card">
+                    <img src="image/puna.jpg" alt="John" class="image">
+                    <h1>POKARA Tepuna</h1>
+                    <p class="title">Développeuse Web</p>
+                    <p>Spécialiste Front-End</p>
+                    <p>19 ans</p>
+                    
+                </div>
+                <!-- FIN TROMBINOSCOPE POKARA -->
+
+                <!-- TROMBINOSCOPE PUHETINI -->
+                <div class="card">
+                    <img src="image/puhe.jpg" alt="John" class="image">
+                    <h1>PUHETINI Teuihau</h1>
+                    <p class="title">Développeur Web</p>
+                    <p>Spécialiste Graphisme/Front-End</p>
+                    <p>21 ans</p>
+                    
+                </div>
+                <!-- FIN TROMBINOSCOPE PUHETINI -->
+            </div>
+            <!-- FIN DIV RANG -->
+
+            <div class="rang">
+                <!-- TROMBINOSCOPE QUILLIEN -->
+                <div class="card">
+                    <img src="image/QUILLIEN.jpg" alt="QUILLIEN" class="image">
+                    <h1>QUILLIEN Torea</h1>
+                    <p class="title">Développeur Web</p>
+                    <p>Spécialiste Graphisme</p>
+                    <p>24 ans</p>
+                    
+                </div>
+                <!-- FIN TROMBINOSCOPE QUILLIEN -->
+
+                <!-- TROMBINOSCOPE ROOPINIA -->
+                <div class="card">
+                    <img src="image/roopinia.jpg" alt="ROOPINIA" class="image">
+                    <h1>ROOPINIA Haamoearii</h1>
+                    <p class="title">Développeuse Web</p>
+                    <p>Spécialiste Back-End/Front-End</p>
+                    <p>20 ans</p>
+                </div>
+                <!-- FIN TROMBINOSCOPE ROOPINIA -->
+
+                <!-- TROMBINOSCOPE RUAHE -->
+                <div class="card">
+                    <img src="image/RUAHE.jpg" alt="John" class="image">
+                    <h1>RUAHE Tinihauarii- <br> temoana</h1>
+                    <p class="title">Développeur Web</p>
+                    <p>Spécialiste Full-Stack</p>
+                    <p>21 ans</p>
+                </div>
+                <!-- FIN TROMBINOSCOPE RUAHE -->
+
+                <!-- TROMBINOSCOPE TAUREI -->
+                <div class="card">
+                    <img src="image/pachoula.jpeg" alt="TAUREI" class="image">
+                    <h1>TAUREI Heilani</h1>
+                    <p class="title">Développeuse Web</p>
+                    <p>Spécialiste Back-End</p>
+                    <p>23 ans</p>
+                </div>
+                <!-- FIN TROMBINOSCOPE TAUREI -->
+            </div>
+            <!-- FIN DIV RANG -->
+
+            <div class="rang">
+                <!-- TROMBINOSCOPE TEMEHAMEHA -->
+                <div class="card">
+                    <img src="image/meha.jpg" alt="TEMEHAMEHA" class="image">
+                    <h1>TEMEHAMEHA Herehau</h1>
+                    <p class="title">Développeur Web</p>
+                    <p>Spécialiste Full-Stack</p>
+                    <p>20 ans</p>
+                </div>
+                <!-- FIN TROMBINOSCOPE TEMEHAMEHA -->
+
+                <!-- TROMBINOSCOPE ZAGHDA -->
+                <div class="card">
+                    <img src="image/ZACDA.jpg" alt="ZAGHDA" class="image">
+                    <h1>ZAGHDA Arthur</h1>
+                    <p class="title">Développeur Web</p>
+                    <p>Spécialiste Front-End</p>
+                    <p>21 ans</p>
+                </div>
+                <!-- FIN TROMBINOSCOPE ZAGHDA -->
+            </div>
+            <!-- FIN DIV RANG -->²
+        </div>
+        <!-- FIN DIV BIG-IMG-2 -->
+        
+        <div style="position:relative;">
+            <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+                <center>
+                    <h1>Contact</h1>
+                </center>
+            </div>
+        </div>
+        
+        <div class="bgimg-3">
+            <!-- Contact Section -->
+            <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+                <h2 class="w3-text-light-grey">Contact Me</h2>
+                <hr style="width:200px" class="w3-opacity">
+            
+                <div class="w3-section">
+                <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> BP 15 550</p>
+                <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> N° Téléphone: (+689) 89 50 91 70</p>
+                <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: pokaratepuna987@gmail.com</p>
+                </div><br>
+                <p>Plus d'information, Envoyez moi un message</p>
+            
+                <form action="/action_page.php" target="_blank">
+                <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+                <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+                <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+                <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+                <p>
+                    <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+                        <i class="fa fa-paper-plane"></i> Envoyer
+                    </button>
+                </p>
+                </form>
+            <!-- End Contact Section -->
+            </div> 
+
+        </div>
+        
+        <div style="position:relative;">
+            <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+                 <!-- CODE HTML MENU RESPONSIVE -->
+
+        <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                    <a href="index.html">Accueil</a>
+                    <a href=""></a>
+                    <a href="#trombi">Trombinoscope</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+            <center>
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; MENU</span>
+            </center>
+            <!-- FIN DU CODE HTML MENU RESPONSIVE -->
+            </div>
+        </div>
+        <!-- FIN DU CODE PARALLAX -->
+    </div>
+
+    
+
+
+    <!-- SCRIPT DU MENU -->
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.height = "100%";
+        }
+        
+        function closeNav() {
+            document.getElementById("myNav").style.height = "0%";
+        }
+    </script>
+    <!-- FIN DU SCRIPT DU MENU -->
+
+    <!-- SCRIPT DU SLIDESHOW -->
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+        }
+        </script>
+        <!-- FIN DU SCRIPT SLIDESHOW -->
+    
+    </body>  
+
+</html>
+                
